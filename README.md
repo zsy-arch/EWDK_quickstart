@@ -18,11 +18,11 @@ by https://docs.microsoft.com/en-us/windows-hardware/drivers/download-the-wdk#en
 ### Set Environment Variable
 
 If you have successfully acquired the WDK and put it somewhere.
-such as `D:\apps\EWDK\`.
+such as `D:\apps\EWDK\ ` .
 
-![](assets\pictures\pic2.png)
+![](assets/pictures/pic2.png)
 
-![](assets\pictures\pic1.png)
+![](assets/pictures/pic1.png)
 
 ### Get repo from git
 ```shell
@@ -39,8 +39,8 @@ clion .
 
 Go to File > Settings > Build, Execution, Deployment > Toolchains.
 Click `+` and add a `Visual Studio` toolchain, then set up the EDWK's Visual Studio path.
-![](assets\pictures\pic3.png)
+![](assets/pictures/pic3.png)
 
 ### Write code and Build it
 
-![](assets\pictures\pic4.png)
+![](assets/pictures/pic4.png)
