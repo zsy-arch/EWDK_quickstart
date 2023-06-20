@@ -10,7 +10,7 @@ VOID driverUnload(PDRIVER_OBJECT _driverObject) {
 }
 
 extern "C" NTSTATUS DriverEntry(PDRIVER_OBJECT _driverObject, PUNICODE_STRING _registryPath) {
-    UNREFERENCED_PARAMETER(_driverObject);
+    _driverObject->DriverUnload = driverUnload;
     UNREFERENCED_PARAMETER(_registryPath);
     DbgPrint("[WDKTest] Hello World\n");
     return 0;
